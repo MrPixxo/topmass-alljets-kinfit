@@ -181,7 +181,7 @@ vector<double> genM = gendata[3];
   for (size_t i = 0; i < inputpt.size(); i++) {
     struct Selection bestSelection(6);
     bestSelection.chi2 = 10000;
-    bestSelection.pgof = 0.00
+    bestSelection.pgof = 0.00;
     jets.clear();
     if (inputpt[i].size() > 5) {
       for (size_t j = 0; j < inputpt[i].size(); j++) {
