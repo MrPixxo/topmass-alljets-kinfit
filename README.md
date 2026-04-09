@@ -25,5 +25,4 @@ You can execute
 ```bash
 python3 cfest.py
 ```
-to confirm everything works:w
-
+to confirm everything works
